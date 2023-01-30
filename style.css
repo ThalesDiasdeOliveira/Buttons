@@ -1,0 +1,243 @@
+.centralized {
+  display: flex;
+  justify-content: center;
+  margin-top: ;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.centralized-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-bottom: 60px;
+  font-size: 43px;
+}
+
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  padding: 32px 75px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 14px;
+  transition: opacity 0.15s;
+  font-size: x-large;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 20px;
+
+}
+
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.7;
+}
+
+.join-button {
+  background-color: white;
+  border-color: #065FD4;
+  border-style: solid;
+  border-width: 1px;
+  color: #065FD4;
+  padding: 30px 49px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.25s, color 0, 25s;
+  margin-top: 10px;
+  font-size: x-large;
+  margin-right: 8px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+.join-button:hover {
+  background-color: #065FD4;
+  color: white;
+}
+
+.join-button:active {
+  opacity: 0.8;
+}
+
+.tweet-button {
+  background-color: #1D9BF0;
+  color: white;
+  border: none;
+  padding: 19px 41px;
+  border-radius: 55px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: box-shadow 0, 15s;
+  margin-top: 10px;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.17);
+  background-color: #1A8CD8;
+  /*posição horizontal, vertical, blur, cor*/
+}
+
+.tweet-button:active {
+  transform: translateY(0.6px);
+  background-color: #177CC0;
+}
+
+.uber-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 32px 42px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  margin-top: 10px;
+  font-size: x-large;
+  margin-bottom: 20px;
+  border-radius: 3px;
+
+}
+
+.uber-button:hover {
+  opacity: 0.9;
+}
+
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  padding: 15px 150px;
+  border-radius: 35px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  font-size: x-large;
+}
+
+.amazon-button:hover {
+  background-color: rgb(245, 205, 3);
+}
+
+.amazon-button-buy {
+  background-color: #FFA41C;
+  border: none;
+  padding: 15px 161.2px;
+  border-radius: 35px;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+.amazon-button-buy:hover{
+  background-color: #f99d12;
+}
+
+.github-button {
+  background-color: #2DA44E;
+  color: white;
+  border: none;
+  padding: 30px 250px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  margin-top: 10px;
+}
+
+.github-button:hover {
+  background-color:  rgb(44, 151, 75);
+}
+
+.github-button:active{
+  background-color: #298E46;
+}
+
+.get-started-button {
+  background-color: #7532F9;
+  color: white;
+  border: none;
+  padding: 32px 40px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.15s;
+  font-size: 31px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.get-started-button:hover {
+  background-color: #6528E0;
+}
+
+.get-started-button:active {
+  background-color: #5A23C8;
+}
+
+.download-button {
+  background-color: white;
+  color: #7532F9;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #7532F9;
+  padding: 32px 40px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+  font-size: 31px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.download-button:hover {
+  background-color: #7532F9;
+  color: white;
+}
+
+.download-button:active {
+  background-color: #5A23C8;
+  color: white;
+}
+
+.discord-button {
+  background-color: #5865F2;
+  color: white;
+  border: none;
+  border-style: solid;
+  padding: 32px 70px;
+  font-weight: bold;
+  border-radius: 55px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+  font-size: X-large;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.discord-button:hover {
+  opacity: 0.9;
+}
